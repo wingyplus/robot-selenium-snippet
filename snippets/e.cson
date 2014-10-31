@@ -1,13 +1,25 @@
 '.text.robot':
+  'Element Should Be Disabled':
+    'prefix': 'esbd'
+    'body': 'Element Should Be Disabled    ${1:locator}'
+  'Element Should Be Enabled':
+    'prefix': 'esbe'
+    'body': 'Element Should Be Enabled    ${1:locator}'
+  'Element Should Be Visible':
+    'prefix': 'esbv'
+    'body': 'Element Should Be Visible    ${1:locator}    ${2:message}'
   'Element Should Contain':
     'prefix': 'esc'
-    'body': 'Element Should Contain   ${1:locator}    ${2:expected}   ${3:message}'
+    'body': 'Element Should Contain    ${1:locator}    ${2:expected}    ${3:message}'
+  'Element Should Not Be Visible':
+    'prefix': 'esnbv'
+    'body': 'Element Should Not Be Visible    ${1:locator}    ${2:message}'
   'Element Text Should Be':
     'prefix': 'etsb'
     'body': 'Element Text Should Be'
   'Execute Async Javascript':
     'prefix': 'eaj'
-    'body': 'Execute Async Javascript   ${1:code}'
+    'body': 'Execute Async Javascript    ${1:code}'
   'Execute Javascript':
     'prefix': 'ej'
-    'body': 'Execute Javascript   ${1:code}'
+    'body': 'Execute Javascript    ${1:code}'
