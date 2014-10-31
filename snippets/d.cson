@@ -1,0 +1,16 @@
+'.text.robot':
+  'Delete All Cookies':
+    'prefix': 'dac'
+    'body': 'Delete All Cookies'
+  'Delete Cookie':
+    'prefix': 'dc'
+    'body': 'Delete Cookie    ${1:name}'
+  'Double Click Element':
+    'prefix': 'dce'
+    'body': 'Double Click Element   ${1:locator}'
+  'Drag And Drop':
+    'prefix': 'dad'
+    'body': 'Drag And Drop    ${1:source}    ${2:target}'
+  'Drag And Drop By Offset';
+    'prefix': 'dadbo'
+    'body': 'Drag And Drop By Offset    ${1:source}    ${2:xoffset}    ${3:yoffset}'
