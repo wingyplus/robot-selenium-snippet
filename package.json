@@ -1,0 +1,16 @@
+{
+  "name": "robot-selenium-snippet",
+  "main": "./lib/robot-selenium-snippet",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "robot-selenium-snippet:toggle"
+  },
+  "repository": "https://github.com/atom/robot-selenium-snippet",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

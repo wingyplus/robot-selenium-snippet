@@ -1,0 +1,52 @@
+'.text.robot':
+  'Capture Page Screenshot':
+    'prefix': 'cps'
+    'body': 'Capture Page Screenshot    ${1:filename}'
+  'Checkbox Should Be Selected':
+    'prefix': 'csbs'
+    'body': 'Checkbox Should Be Selected    ${1:locator}'
+  'Checkbox Should Not Be Selected':
+    'prefix': 'csnbs'
+    'body': 'Checkbox Should Not Be Selected    ${1:locator}'
+  'Choose Cancel On Next Confirmation':
+    'prefix': 'cconc'
+    'body': 'Choose Cancel On Next Confirmation'
+  'Choose File':
+    'prefix': 'cf'
+    'body': 'Choose File    ${1:locator}    ${2:file_path}'
+  'Choose Ok On Next Confirmation':
+    'prefix': 'coonc'
+    'body': 'Choose Ok On Next Confirmation'
+  'Click Button':
+    'prefix': 'cb'
+    'body': 'Click Button   ${1:locator}'
+  'Click Element':
+    'prefix': 'ce'
+    'body': 'Click Element    ${1:locator}'
+  'Click Element At Coordinates':
+    'prefix': 'ceac'
+    'body': 'Click Element At Coordinates   ${1:locator}    ${2:xoffset}    ${3:yoffset}'
+  'Click Image':
+    'prefix': 'ci'
+    'body': 'Click Image    ${1:locator}'
+  'Click Link':
+    'prefix': 'cl'
+    'body': 'Click Link   ${1:locator}'
+  'Close All Browsers':
+    'prefix': 'cab'
+    'body': 'Close All Browsers'
+  'Close Browser':
+    'prefix': 'cbr'
+    'body': 'Close Browser'
+  'Close Window':
+    'prefix': 'cw'
+    'body': 'Close Window'
+  'Confirm Action':
+    'prefix': 'ca'
+    'body': 'Confirm Action'
+  'Current Frame Contains':
+    'prefix': 'cfc'
+    'body': 'Current Frame Contains   ${1:text}   ${2:loglevel}'
+  'Current Frame Should Not Contain':
+    'prefix': 'cfsnc'
+    'body': 'Current Frame Should Not Contain   ${1:text}   ${2:loglevel}'

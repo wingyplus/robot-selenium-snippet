@@ -1,0 +1,13 @@
+'.text.robot':
+  'Element Should Contain':
+    'prefix': 'esc'
+    'body': 'Element Should Contain   ${1:locator}    ${2:expected}   ${3:message}'
+  'Element Text Should Be':
+    'prefix': 'etsb'
+    'body': 'Element Text Should Be'
+  'Execute Async Javascript':
+    'prefix': 'eaj'
+    'body': 'Execute Async Javascript   ${1:code}'
+  'Execute Javascript':
+    'prefix': 'ej'
+    'body': 'Execute Javascript   ${1:code}'

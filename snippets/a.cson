@@ -1,0 +1,10 @@
+'.text.robot':
+  'Add Cookie':
+    'prefix': 'ac'
+    'body': 'Add Cookie   ${1:name}   ${2:value}    ${3:path}   ${4:domain}   ${5:secure}   ${6:expiry}'
+  'Alert Should Be Present':
+    'prefix': 'asbp'
+    'body': 'Alert Should Be Present    ${1:text}'
+  'Assign Id To Element':
+    'prefix': 'aite'
+    'body': 'Assign Id To Element   ${1:locator}    ${2:id}'
