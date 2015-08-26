@@ -11,6 +11,6 @@
   'Drag And Drop':
     'prefix': 'dad'
     'body': 'Drag And Drop    ${1:source}    ${2:target}'
-  'Drag And Drop By Offset';
+  'Drag And Drop By Offset':
     'prefix': 'dadbo'
     'body': 'Drag And Drop By Offset    ${1:source}    ${2:xoffset}    ${3:yoffset}'
